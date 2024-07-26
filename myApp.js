@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
+const theMiddleware = require('theMiddleware'); 
+app.use(theMiddleware.theMethod());
 
-let helmet = require("helmet");
-app.use(helmet.hidePoweredBy());
 
 
 
