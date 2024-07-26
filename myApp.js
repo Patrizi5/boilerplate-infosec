@@ -3,7 +3,7 @@ const app = express();
 
 let helmet = required('helmet');
 
-app.use(helmet.hidePoweredBy())
+app.use(helmet.hidePoweredBy());
 
 
 
