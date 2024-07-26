@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-let helmet = required('helmet')
+let helmet = required('helmet');
 
 app.use(helmet.hidePoweredBy())
 
